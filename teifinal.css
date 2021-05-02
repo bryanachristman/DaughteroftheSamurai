@@ -1,0 +1,19 @@
+h1 {
+    font-family: fantasy, fixed, monospace;
+    color: #000000;
+}
+body {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    Margin-bottom: 0px;
+    font-family: fantasy;
+    color: #615856;
+    background-color: #E1D3F3;
+}
+
+h2 {
+    color: #000000;
+}
+

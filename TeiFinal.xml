@@ -1,0 +1,888 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xml:id="basicTEI.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title level="m" type="main">A Daughter of the Samurai</title>
+                <author>Etsuko Sugimoto</author>
+                <principal>Abigail Jackowski</principal>
+
+                <respStmt>
+                    <resp>Transcibing and Emcoding the text</resp>
+                    <persName xml:id="amj">Abigail Jackowski</persName>
+                </respStmt>
+            </titleStmt>
+
+
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                <publisher>Doubleday, Page &amp; Company for Japan Society</publisher>
+
+                <date>2021</date>
+
+            </publicationStmt>
+
+
+            <notesStmt>
+                <note type="project"/>
+            </notesStmt>
+
+
+
+
+            <sourceDesc>
+                <bibl>
+
+                    <title level="a">A Daughter of the Samurai</title>
+                    <editor/>
+                    <author>Etsu Inagaki Sugimoto</author>
+                    <date>1925</date>
+                    <publisher>Doubleday, Page &amp; Company for Japan Society</publisher>
+                    <pubPlace>New York</pubPlace>
+                    <orgName> </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+
+
+        <revisionDesc>
+            <change when="20210302">
+                <name>Abby Jackowski</name>
+            </change>
+
+            <change when="20210302"> <name>Abigail Jackowski</name> encoding A Daughter of the
+                Samurai</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb n="98"/>
+            <div type="chapter" xml:id="ch11">
+                <head type="number">CHAPTER XI</head>
+                <head type="title">MY FIRST JOURNEY</head>
+                <p>That was one of the long <placeName ref="#Nagaoka"> Nagaoka </placeName>winters.
+                    For five months we saw only snow. In the early spring our relatives in Tokyo had
+                    written that arrangements had been made for my school. From that time I had been
+                    waiting impatiently for the mountain roads to become safe from avalanches; for
+                    just as soon as we could travel <persName ref="#Brother"> Brother </persName>
+                    was to take me to the capital. </p>
+
+                <p>At last the dykes <term xml:lang="jp" resp="#amj" ref="dyke" target="#dyke"/>were
+                    dry&#8211;that was where the snow always melted first&#8211;and we had a
+                    "gathering-green" picnic as a farewell to my companions in <placeName
+                    ref="#Nagaoka"> Nagaoka </placeName> One sunny morning a group of us, with
+                    purple scarfs on our , heads and <term xml:lang="jp" resp="#amj" ref="kimono"
+                    />kimonos tucked up over our bright skirts, dotted the dykes <term xml:lang="jp"
+                    resp="#amj" ref="dyk"/>slopes, each carrying a small basket and a bamboo knife
+                    and filling the air with laughter and merry calls as we hurried up and down the
+                    banks, trying to see how many different kinds of green each could find. Often in
+                    later years I recall that happy day as my last gay time at home as a girl. </p>
+
+                <p>Finally the mail carriers reported that the overhanging snow-cliffs had all
+                    fallen and the slopes were clear. Soon after came the day of our departure. With
+                    a heart half of elation, half of regret, I bade good-bye to <persName
+                    ref="#HonourableGrandmother "> Honourable Grandmother </persName> and <persName
+                    ref="#Mother"> Mother </persName> and with misty eyes was carefully tucked into
+                    my jinrikisha<term xml:lang="jp" resp="#amj" ref="jinrikisha"
+                    target="jinrikisha"/> by <persName ref="#Brother"> Ishi </persName>. Then,
+                    between lines of bowing friends, our two jinrikishas <term xml:lang="jp"
+                    resp="#amj" ref="jinrikisha"/>and a baggageladen horse led by a coolie started
+                    on the eight-days' journey to Tokyo. </p>
+
+                <p>Most of the way we travelled in jinrikishas<term xml:lang="jp" resp="#amj"
+                    ref="jinrikisha" target="jinrikisha"/>, changing</p>
+                <pb/>
+                <p>them at certain towns, but occasionally we had to go on horseback. My saddle was
+                    a high box-seat; so <persName ref="#Brother"> Brother </persName> and the coolie
+                    rigged up a double-basket held by bands across the horse's back. I sat in one
+                    part, and baggage filled the other. As we went around the steep, curving road on
+                    the mountain side, I could lean over and look far, far down to the fisher
+                    villages on the coast. But it was more interesting, as we got farther along, to
+                    look across the deep valley to the sloping hillsides with their terraces of
+                    ricefields&#8211;odd-shaped patches fitted in like the silk pieces of a Buddhist
+                    priest's robe. In every little village of thatch-roofed huts was a shrine set
+                    high in the midst of a few trees, and, half-hidden in a hollow beside a stream,
+                    was whirling the great narrow wheel of a rice-mill. The air was so clear that I
+                    could plainly see the awkward lunge of a water-buffalo as he dragged a wooden
+                    plough along the furrows of one of the rice-patches, and I could even
+                    distinguish a scarlet Bower stuck between the folds of the towel knotted about
+                    the head of the coolie behind. In those days no one ever wore a living Bower,
+                    except to carry it to the dead; so I knew he was taking it home for the house
+                    shrine. I wondered what kind of a home he had.</p>
+                <p>I think it was our third day when I noticed that we were leaving the snow
+                    country. No longer did the towns have their sidewalks roofed, and these thatches
+                    bore no rows of avalanche stones. The houses looked bare and odd-like a married
+                    woman's face with newly shaved eyebrows. But we were not entirely beyond the
+                    sight of snow, for as we skirted <placeName ref="#MyokoMountain"> Myoko Mountain
+                    </placeName> we saw a good many drifts and patches. The jinrikisha <term
+                    xml:lang="jp" resp="#amj" ref="jinrikisha" target="jinrikisha"/> men said snow
+                    lasted there until July .</p>
+                <p><q>"From the top,"</q>said <persName ref="#Brother"> Brother </persName>, <q>"you
+                    can see <placeName ref="#Fujiyama"> Fujiyama </placeName></q>&#8211; "</p>
+                <p>My heart thrilled, and I foolishly turned my head, feeling for a moment that I
+                    was really near the sacred</p>
+                <pb/>
+                <p>mountain which my eyes had never expected to behold. And then, with a deeper,
+                    warmer thrill, I heard the conclusion of his sentence:</p>
+                <p>
+                    <q>"&#8211;and then, if you turn and look in the opposite direction, you can see
+                        the plains of <placeName ref="#Echigo"> Echigo </placeName>."</q>
+                </p>
+                <p><q>"We are very far away from home,"</q> I replied in a small voice.</p>
+                <p><persName ref="#Brother"> Brother </persName> gave a quick look at my grave face;
+                    then he laughed.</p>
+                <p>
+                    <q>"Also, if you look just beyond, you can see the <placeName ref="#IsleofSado">
+                        Isle of Sado </placeName> .<persName ref="#Matsuo"> If Matsuo
+                        </persName>should not come up to expectations, here's some advice for
+                        you."</q>
+                </p>
+                <p>And his merry voice broke into an old song:</p>
+
+                <lb/>
+                <p>
+                    <q>
+                        <emph rend="italics">"Nikuiotoko ni ltiutai shima wa Royagoshi ni Sada ga
+                            shima."</emph>
+                    </q>
+                </p>
+                <p>I was shocked that<persName ref="#Brother"> Brother </persName>should sing a
+                    common servant's song, and doubly shocked that he should joke so lightly about
+                    serious things; so my face was still grave as we rolled along in our
+                    jinrikishas<term xml:lang="jp" resp="#amj" ref="jinrikisha" target="jinrikisha"
+                    />.</p>
+
+                <p>The <placeName ref="#IsleofSado"> Isle of Sado </placeName> used to be a place of
+                    exile for criminalsand was considered by common people as the end of the world.
+                    This joking song, which is popular among peasant girls, is literally a threat to
+                    present to a disliked suitor, not the pleated garment which is the usual gift of
+                    the bride to a groom, but instead, a convict's garb: meaning, <q>"I pray the
+                    gods will send the unwelcome one across the raging seas to the end of the
+                    world."</q></p>
+                <p>We spent our fifth night at <placeName ref="#Nagano"> Nagano </placeName> in the
+                    temple of <placeName ref="#Zenkoji"> Zenkoji </placeName> where lived theroyal
+                    nun bene.athwhose high-lifted razor I had walked, years before, in a procession
+                    of gaily clad little girls, for a Buddhist ceremony of consecration.</p>
+                <p>The next morning, soon after we started, <persName ref="#Brother"> Brother
+                    </persName> halted and allowed my jinrikisha <term xml:lang="jp" resp="#amj"
+                    ref="jinrikisha" target="jinrikisha"/>to roll up to his side.</p>
+                <pb/>
+                <p><q>"<persName ref="#Etsuko">Etsu-bo</persName>,"</q>he asked,<q>"When did they
+                    give up making priestess of you?"</q></p>
+                <p><q>"Why&#8211;I don't know,"</q>I said, suprised.</p>
+                <p>He gave a little scornful laugh and rode on to his place ahead leaving me silent
+                    and thoughtful.</p>
+                <p>I had spoken the truth when I said I did not know. I had always accepted my
+                    education with no thought of results. But <persName ref="#Brother"> Brother's
+                    </persName> laugh had startled me, and, rolling along that mountain road, I did
+                    a good deal of thinking. At last I believed that I understood. I know my father
+                    had never approved, although he acquiesced in <persName
+                    ref="#HonourableGrandmother "> Honourable Grandmother;s </persName> wish that I
+                    should be educated for a priestess; and when, after my <persName ref="#Brother">
+                    Brother's </persName> sad departure, he had quietly substituted
+                    studieswhichwould be of benefit should I ever hold the position of his heir, I
+                    think <persName ref="#HonourableGrandmother "> Honourable Grandmother
+                    </persName>, aching with sympathy for her proud, disappointed son, laid aside
+                    her cherished hope, and the plan was silently abandoned.</p>
+                <p>In the province of <placeName ref="#Shinano"> Shinano </placeName>, an hour or so
+                    from <placeName ref="#Nagano"> Nagano </placeName>, my jinrikisha <term
+                    xml:lang="jp" resp="#amj" ref="jinrikisha" target="jinrikisha"/>man pointed
+                    across the river to a small wooded mountain.</p>
+                <p><q>"Obatsuyama, it is," </q>he said.</p>
+                <p>How my mind went back to <persName ref="#Ishi"> Ishi </persName>and her
+                    mother-love story which tells of a time long, long ago, when there lived at the
+                    foot of this mountain a poor farmer and his aged widowed mother. They owned a
+                    bit of land which supplied them with food and their humble lives were peaceful
+                    and happy.</p>
+                <p>At that time <placeName ref="#Shinano"> Shinano </placeName>was governed by a
+                    despotic ruler who, though a brave warrior, had a great and cowardly shrinking
+                    from anything suggestive of fading health and strength. This caused him to send
+                    out a cruel proclamat:ion. The entire province was given strict orders
+                    immediately to put to death all aged people.</p>
+                <p>Those were barbarous days, and the custom of abandon-</p>
+                <pb/>
+                <p>ing old people to die was not uncommon. However, it was not a law, and many of
+                    the helpless old lived as long as nature allowed in comfortable and welcome
+                    homes. The poor farmer loved his aged mother with tender reverence, and the
+                    order filled his heart with sorrow. But no one ever thought a second time about
+                    obeying the mandate of a daimio, so with many deep and hopeless sighs the youth
+                    prepared for what at that time was considered the kindest mode of death.</p>
+                <p>Just at sundown, when hois day's work was ended, he took a quantity of the
+                    unwhitened rice which is the principal food of the poor, cooked and dried it,
+                    and tying it in a square of cloth he swung the bundle around his neck along with
+                    a gourd filled with cool, sweet water. Then he lifted his helpless old mother to
+                    his back and started on his painful journey up the mountain.</p>
+                <p>The road was long and steep. He plodded- steadily on, the shadows growing deeper
+                    and deeper, until the moon, round and clear, rose above the mountain-top and
+                    peered pityingly through the branches upon the youth toiling onward, his head
+                    bent with weariness and his heart heavy with sorrow. The narrow road was crossed
+                    and recrossed by many paths made by hunters and wood-cutters. In some places
+                    they mingled in a confused puzzle, but he gave no heed. One path or another, it
+                    mattered not. On he went, climbing blindly upward&#8211;ever upward&#8211;toward
+                    the high, bare summit of what is now known as <term xml:id="Oba" rend="sc"
+                    >Obatsuyama</term>, mountain of the <q>"<gloss target="#Oba">Abandoning of the
+                    Aged.</gloss>"</q></p>
+                <p>The eyes of the old mother were not so dim out that they noted the reckless
+                    hastening from one path to another, and her loving heart grew anxious. Her son
+                    did not know the mountain's many paths, and his return might be one of danger,so
+                    she stretched forth herhand and snapping the twigs from the bushes as they
+                    passed, she</p>
+
+                <pb/>
+                <p>quietly dropped a handful every few steps of the way, so as they climbed, the
+                    narrow path behind them was dotted at frequent intervals with tiny piles of
+                    twigs.</p>
+                <p>At last the summit was reached. Weary and heartsick, the youth gently released
+                    his burden and silently prepared a place of comfort, as his last duty to the
+                    loved one. Gathering fallen pine needles he made a soft cushion, and tenderly
+                    lifting his old mother thereon, he wrapped her padded coat more closely about
+                    the stooping shoulders and with tearful eyes and an aching heart said
+                    farewell.</p>
+                <p>The trembling mother voice was full of unselfish love as she gave her last
+                    injunction.</p>
+                <p>
+                    <q>"Let not thine eyes be blind, my son. The mountain road is full of danger.
+                        Look carefully and follow the path which holds the piles of twigs. They will
+                        guide thee to · the familiar way farther down."</q>
+                </p>
+                <p>The son's surprised eyes looked back over the path, then at the 'poor old
+                    shrivelled hands all scratched and soiled by their work of love. His heart smote
+                    him and, bowing to the ground, he cried aloud:</p>
+                <p>
+                    <q>"Oh, Honourable Mother, thy kindness thrusts my heart! I will not leave thee.
+                        Together'we will follow the path of twigs, and together we will die I"</q>
+                </p>
+                <p>Once more he shouldered his burden (how light it seemed now!) and hastened down
+                    the path, through the shadows and the moonlight, to the little hut in the
+                    valley.</p>
+                <p>Beneath the kitchen floor was a walled closet for food, which was covered over
+                    and hiddeμ from view. There the son hid his mother, supplying her with
+                    everything needful and continually watching and fearing.</p>
+                <p>Time passed and he was beginning to feel safe, when again the despot sent forth
+                    heralds bearing an unreasonable and useless order; seemingly as a boast of his
+                    power. His demand was that his subjects should present him with a rope of ashes.
+                    The entire province trembled with</p>
+                <pb/>
+
+                <p>dread. The order must be obeyed; yet who in all <placeName ref="#Shinano">
+                    Shinano </placeName>could make a rope of ashes?</p>
+                <p>One night, in great distress, tne son whispered the news to his hidden
+                    mother.</p>
+                <p><q>"Wait!" </q> she said, <q>"I will think."</q></p>
+                <p>On the second day she told him what to do.</p>
+                <p>
+                    <q>"Make a rope of twisted straw," she said, "then stretch it upon a row of flat
+                        stones and bum it there on a windless night."</q>
+                </p>
+                <p>He called the people together and did as she said, and when the blaze had died,
+                    behold, upon the stones, with every twist and fibre showing perfect, lay a rope
+                    of whitened ashes.</p>
+                <p>The <persName ref="daimio">daimio </persName>was pleased at the wit of the youth,
+                    and praised him greatly, but demanded to know where he had obtained his
+                    wisdom.</p>
+                <p><q>"Alas I Alas I"</q> cried the farmer, <q>"the truth must be told!"</q> and
+                    with many deep bows he related his story.</p>
+                <p>The daimio listened, then meditated in silence. Finally he lifted his head</p>
+                <p><q>"<placeName ref="#Shinano"> Shinano </placeName>needs more than the strength
+                    of youth,"</q> hesaid gravely.<q> "Ah, that I should have forgotten the
+                    wellknown saying, 'With the crowri of snow, there cometh wisdom!'"</q></p>
+                <p>That very hour the cruel law was abolished, and the custom drifted into so far a
+                    past that only the legend remains.</p>
+                <p>As we went farther on, I found the customs so different from those of <placeName
+                    ref="#Nagaoka"> Nagaoka </placeName> that I felt as if I were already in a
+                    strange land. At one place, long before we reached the village, we heard a
+                    hoarse voice calling, <term xml:id="Ma" rend="sc"> Ma-kat-ta? Ma-kat-ta ?
+                    </term>" <gloss target="#Ma">(Is it sold? Is it sold?)</gloss> and as we rolled
+                    through the one narrow, crowded street we saw an auctioneer standing high in the
+                    midst of dozens of bamboo baskets of beans, carrots, greens, and bamboo shoots;
+                    while lying around him, in ungainly confusion, were every</p>
+                <pb/>
+                <p>size and shape of purple eggplant and long, sprawling, delicious lotus roots.</p>
+                <p><persName ref="#Brother"> Brother </persName> looked back and laughed.</p>
+                <p><q>"Who is he? What were all the people doing?"</q> I asked, as soon as we
+                    reached the end of the long street and rolled out on to the public road.</p>
+                <p><q>"It is a vegetable auction,"</q> <persName ref="#Brother"> Brother </persName>
+                    explained. <q>"Merchants buy in quantities, and every morning the things are
+                    auctioned off by the basketful. Weren't those fine lotus roots? If we hadn't had
+                    breakfast only a couple of hours ago I'd believe I was hungry."</q></p>
+                <p>At another place we went by a house where death had entered. Before the door
+                    stood a funeral palanquin into which coolies with big hats and crest-coats were
+                    just lifting the heavy wooden bucket containing the body. Over it was thrown a
+                    small kimono <term xml:lang="jp" resp="#amj" ref="jkimono" target="kimono"/>of
+                    scarlet and gold, showing that the dead child must have been a little daughter.
+                    The dress would have been white for a son. Around stood a number of white-robed
+                    mourners with· white towels folded over their hair. As we passed, I caught a
+                    glimpse of a screen placed upside down and the lighted candles of a tiny
+                    shrine.</p>
+                <p>At one place, where the road ran close to a broad river with bold bluffs coming
+                    down, in some places, almost to the water, we saw a number of odd floating
+                    rice-mills with turning paddle-wheels that looked like a fleet of boats standing
+                    motionless in a· hopeless struggle against a strong tide. I wondered where, in
+                    that rocky country, were enough people to eat all the rice that was being
+                    r.round; but when we turned away from the river we suddenly found ourselves in a
+                    silk-culture district, where our road ran through village after village, each
+                    having its own mulberry plantation.</p>
+                <p>The town where we expected to spend the night was only a few hours ahead when the
+                    sky began to darken with a</p>
+                <pb/>
+                <p>threatening storm. <persName ref="#Brother"> Brother </persName>was casting
+                    anxious looks backward when his jinrikisha <term xml:lang="jp" resp="#amj"
+                    ref="jinrikisha" target="jinrikisha"/>man told him that in the next village was
+                    a large house where travellers had some­ times been kept for a night. So we
+                    hurried there, the last quarter of an hour being a bouncing, breathless race
+                    between men and clouds. The men won, whirling us up to the door, into which we
+                    ran unannounced, just as the storm broke with a downpour which it would have
+                    been hard to struggle through on the road.</p>
+                <p>It was an odd house where we had found shelter; but I know that even my
+                    honourable father, on his journeys in ancient days, never, on any occasion,
+                    received a more cordial welcome or more kindly treatment than did we and our
+                    perspiring, laughing, boasting men at the end of our exciting race.</p>
+            </div>
+
+            <pb n="107"/>
+            <div type="chapter" xml:id="ch12">
+                <head type="number">CHAPTER XI</head>
+                <head type="title">TRAVEL EDUCATION</head>
+                <p>The large, well-cared-for house in which we had taken refuge that stormy night
+                    was crowded full of busy workers. With the exception of the living l'ooms of our
+                    host, his wife, and two daughters, the entire house was full of skeleton frames
+                    containing tiers and tiers of bamboo trays, each holding a network screen
+                    covered with silkworms. There must have been thousands and thousands of them. I
+                    had been accustomed to silkworms all my life. <persName ref="#Ishi"> Ishi's
+                    </persName>home had been in a weaving village, and my elder sister had many silk
+                    villages on her three-mountain estate; but I never before had spent a night in
+                    sound of the continual nibbling of the hungry little creatures. It filled the
+                    whole house with a gentle rustling, exactly like the patter of raindrops on dry
+                    leaves, and I dreamed all night of dripping eaves. The next morning I awakened
+                    with a depressed feeling that I was to have a day's ride in a close-shut
+                    jinrikisha<term xml:lang="jp" resp="#amj" ref="jinrikisha" target="jinrikisha"
+                    />, and was surprised, when I pushed back one of the wooden panels at the porch
+                    edge, to find that the sun was shining.</p>
+                <p>While I was standing there, one of the daughters, about my age, came out carrying
+                    a straw mat of silkworm waste to throw on a pile in the yard-for the mulberry
+                    stems and rice hulls of silkworm waste make the best fertilizer in the world-and
+                    she stopped to bow good-morning. Then she stood there in the June sunshine with
+                    her sleeves looped back and her bare feet in straw sandals, and I squatted</p>
+                <pb/>
+                <p>on the edge of the porch in my home-dyed night kimono <term xml:lang="jp"
+                    resp="#amj" ref="kimono" target="kimono"/>, and we got acquainted.</p>
+                <p>She told me that she took care of six trays of silkworms all by herself. She
+                    seemed to know everything about them, and she loved them.</p>
+                <p>
+                    <q>"They're clean," she said, "and dainty about food, and intelligent about
+                        their own affairs&#8211;just like people."</q>
+                </p>
+                <p>I was so interested in all the surprising things I heard that I was still
+                    listening when a girl came to fold away my bed cushions, and I had to hurry to
+                    get dressed.</p>
+                <p> <q>"Well,"</q> said <persName ref="#Brother"> Brother </persName>, after my room
+                    had been cleaned, and breakfast brought in, <q> "how do you like living in a
+                    boarding house?"</q> </p>
+                <p><q>"The boarders are very noisy,"</q> I replied; <q>"and, from what our hostess's
+                    daughter told me, they are very particular. She says they cannot endure one
+                    particle of dust. Even a withered leaf will sometimes cause one to 'tie on his
+                    blue neckerchief' and creep to the outer edge of the tray."</q></p>
+                <p><q>"Have you seen our host's grandmother?"</q> asked <persName ref="#Brother">
+                    Brother </persName>.</p>
+                <p>
+                    <q>"No, I didn't know there was a grandmother."</q>
+                </p>
+                <p>
+                    <q>"She went early to her cushions last night; probably to escape the bustle and
+                        annoyance of our abrupt arrival. We will pay our respects to her before we
+                        leave."</q>
+                </p>
+                <p>When breakfast was over, our host took us to the grandmother's room. She was a
+                    very old lady with a reserved manner and a face of more than usual intelligence.
+                    As soon as she bowed I knew that she had been trained in a samurai house, and
+                    when I saw the crest of a <emph rend="italics">naginata</emph> on the wall-rest
+                    above the <emph rend="italics">shoji</emph>, I knew why <persName ref="#Brother"
+                    > Brother </persName> had wanted me to come to this room. </p>
+                <p> A <emph rend="italics">naginata</emph> is a long, light spear with curved blade,
+                    which samurai women were taught to use, partly for exercise and partly for
+                    defence in case of necessity. This </p>
+                <pb/>
+                <p>one bore the crest of one of our northern heroes. He was a traitor, but
+                    nevertheless he was a hero. When he was killed, his daughter was one of the
+                    group&#8211;three of them womenAs I mounted my jinrikisha <term xml:lang="jp"
+                    resp="#amj" ref="jinrikisha" target="jinrikisha"/> and bowed again to the entire
+                    group of family and servants bowing in the doorway, I could not help sending a
+                    thought farewell to the busy little boarders. I had learned more about silkworms
+                    during that shon rustling visit than in my fourteen years of life in a silkworm
+                    district. As we rolled along over a smooth, monotonous road my mind was busy,
+                    and I believe that then and there I first began to realize-­ vaguely-that all
+                    creatures, however insignificant, were "intelligent about their own affairs-just
+                    like people."who defended the sorely pressed castle during the last desperate
+                    hours of hopeless struggle. The old lady told us, with modest pride, that she
+                    had been a humble attendant of the daughter and was with her at that dreadful
+                    time. The <emph rend="italics">naginata</emph> was a memory gift from her
+                    honourable and beloved mistress.</p>
+                <p>Seeing that we were deeply interested, she brought out her other treasure--a
+                    slender, blunt knife called a <emph rend="italics">kogai</emph>, which, with the
+                    throwing-dagger, forms part of the hilt of a samurai's long sword. In very
+                    ancient days Japanese warfare was a science. Artistic skill was always displayed
+                    in the use of weapons, and no soldier was proud of having wounded an enemy in
+                    any other manner than the one established by strict samurai rule. The long sword
+                    had for its goal only four points: the top of the head, the wrist, the side, and
+                    the leg below the knee. The throwingdagger must speed on its way, true as an
+                    arrow, direct to forehead, throat, or wrist. But the blunt little <emph
+                    rend="italics"> kogai </emph>had many uses. It was the key that locked the sword
+                    in its scabbard; when double it could be used as chopsticks by the marching
+                    soldier; it has been used on the battlefield, or in retreat, mercifully to
+                    pierce the ankle vein of a suffering and dying comrade, and it had the unique
+                    use in a clan feud, when found sticking upright in the ankle of a dead foe, of
+                    bearing the silent challenge, "I await thy return." Its crest told to whom it
+                    belonged and, in time, it generally was returned-to its owner's ankle. The <emph
+                    rend="italics"> kogai </emph>figures in many tales of romance and revenge of the
+                    Middle Ages.</p>
+                <p>I was glad to see <persName ref="#Brother"> Brother </persName> so interested,
+                    and was happy myself in watching the old lady's face flush and light up with her
+                    memories; but her closing words made me feel</p>
+                <pb/>
+                <p>sorry. To some remark of <persName ref="#Brother"> Brother's </persName> she
+                    replied,<q> "Youth is always listening eagerly for marching orders; but the aged
+                    can only look backward to sad memories and hopeless dreams."</q></p>
+                <p>As I mounted my jinrikisha <term xml:lang="jp" resp="#amj" ref="jinrikisha"
+                    target="#jinrikisha"/>and bowed again to the entire group of family and servants
+                    bowing in the doorway, I could not help sending a thought farewell to the busy
+                    little boarders. I had learned more about silkworms during that shon rustling
+                    visit than in my fourteen years of life in a silkworm district. As we rolled
+                    along over a smooth, monotonous road my mind was busy, and I believe that then
+                    and there I first began to realize&#8211; vaguely&#8211;that all creatures,
+                    however insignificant, were "intelligent about their own affairs&#8211;just like
+                    people."</p>
+                <p><q>"Dear me I"</q> I finally said to myself. <q>"How much we learn when we travel
+                    I"</q> and I pulled the jinrikisha <term xml:lang="jp" resp="#amj"
+                    ref="jinrikisha"/>robe over my lap and settled myself for the long ride
+                    ahead.</p>
+                <p>I think I must have gone to sleep, for I found myself crookedly but comfortably
+                    snuggled into almost a <emph rend="italics">kinoji </emph>when I heard <persName
+                    ref="#Brother"> Brother's </persName> voice.</p>
+                <p>We were entering a good-sized town and he was leaning back and pointing across
+                    the tiled roofs to a castle on the hill beyond.</p>
+                <p>
+                    <q>"This is <placeName ref="#Komoro"> Komoro </placeName>," he called, "and
+                        there's where the foot-high dolls came from."</q>
+                </p>
+                <p>I smiled as my mind flew back to the <placeName ref="#Nagaoka"> Nagaoka
+                    </placeName> home and pictured two enormous dolls of the festival set brought by
+                    our <placeName ref="#Komoro"> Komoro </placeName> great-great-grandmother with
+                    her wedding dowry. In her day the Government permitted only the daughter of a
+                    daimio to own dolls a foot high, and her entire set must have been wondrously
+                    handsome. But in my time, when our living came principally from ,·he visits of
+                    the second-hand man to our godown, the wondnful <placeName ref="#Komoro"> Komoro
+                    </placeName>dolls, with their miniature furniture of gc Id and lacquer&#8211;the
+                    perfection of Japanese art of the Middle</p>
+
+                <pb/>
+                <p>Ages&#8211;gradually found new homes. They went, I know, to no godown of Japan,
+                    but, through some shrewd dealer, into foreign hands and foreign lands and
+                    probably to-day are calmly resting in widely scattered homes and museums of
+                    Europe or America.</p>
+                <p>Two of the dolls had become defaced in some way, and thus, being unsaleable, they
+                    were placed as ornaments on the high tokonoma<term xml:lang="jp" resp="#amj"
+                    ref="tokonoma" target="#tokonoma"/> shelf in my room. I was very fond of acting
+                    out scenes of the stories that were told me, and I used to take down the dolls
+                    and use them as an audience while I strutted around the room representing an
+                    ancient samurai with some fearful duty to perform. The dolls' heads were
+                    movable, and thus supplied a splendid opportunity for a favourite revenge story
+                    of mine. Many a time I have placed my hand on one of the enamelled heads and,
+                    with my ivory paper knife as a sword, have struck fiercely at the doll, at the
+                    same instant lifting out the head from its collar of rich brocade; then, with
+                    stern, set face, I would hurriedly wrap the head in a purple square of crepe
+                    and, tucking it under my arm, stride boldly off to an imaginary courtroom.</p>
+                <p>I suspect my father knew of this barbarous game of mine, for I always borrowed
+                    his purple crepe <emph rend="italics"> fukusa </emph>for this purpose, feeling
+                    that something belonging to him would give dignity to the occasion; but I never
+                    heard <persName ref="#HonourableGrandmother "> Honourable Grandmother's
+                    </persName> step on the porch that I did not quickly restore the head to its
+                    brocade nest in order to save her another anxious fear that I was growing too
+                    bold and rough ever to find a husband.</p>
+                <p>As our jinrikishas <term xml:lang="jp" resp="#amj" ref="jinrikisha"
+                    target="#jinrikisha"/>rolled through the town I looked up at the castle with
+                    interest. And this was the home from which our <placeName ref="#Komoro"> Komoro
+                    </placeName> grandmother had gone forth on her wedding journey to <placeName
+                    ref="#Nagaoka"> Nagaoka </placeName> ! Half buried in trees it stood, the gray,
+                    tipped-up corners of many roofs peeping through the branches. It looked like a
+                    broad, low pa-</p>
+                <pb/>
+                <p>goda towering above a slanting wall of six-sided stones-­ the "tortoise back" of
+                    all Japanese castles.</p>
+                <p>From <placeName ref="#Komoro"> Komoro </placeName> to <placeName ref="#Nagaoka">
+                    Nagaoka </placeName> It must have seemed a long trip to the young girl in the
+                    teetering bridal <emph rend="italics">kago !</emph> I thought of what <persName
+                    ref="#HonourableGrandmother "> Honourable Grandmother </persName> had told me of
+                    her own month-long bridal trip. And then I looked ahead. The ldzumo <term
+                    xml:lang="jp" resp="#amj" ref="Idzumo" target="Idzumo"/> gods, who plan all
+                    marriages, had decreed the same fate for many brides of our family, and, so far
+                    as my own future was planned, I seemed destined to follow in the footsteps of my
+                    ancestors.</p>
+                <p>At one place where we had to take <emph rend="italics"> kagos</emph> I disgraced
+                    myself. I dreaded a <emph rend="italics"> kago</emph>. The big basket swinging
+                    from the shoulders of the trotting coolies always made me dizzy and faint, but
+                    that day it was raining hard and the mountain path was too rough for a
+                    jinrikisha<term xml:lang="jp" resp="#amj" ref="jinrikisha" target="jinrikisha"
+                    />. I stood things as bravely as I could, but finally I became so sick that
+                    <persName ref="#Brother"> Brother </persName> had the baggage taken off the
+                    horse and, wedging me in between cushions on its back, covered me with a tent
+                    made of a straw mat and, disdaining comfort for himself, walked all the way up
+                    the mountain beside me, the coolie following with the two <emph rend="italics">
+                    kagos</emph>.</p>
+                <p>At the top the sun was shining, and when I peeped out from my tent <persName
+                    ref="#Brother"> Brother </persName>was shaking himself as my poor Shiro <term
+                    xml:lang="jp" resp="#amj" ref="shiro" target="shiro"/>used to do when drenched
+                    with rain. I ventured to apologize in a shamed voice.</p>
+                <p>
+                    <q>"<emph rend="italics">Kago</emph>sickness is a great absorber of pride,
+                        <persName ref="#Etsuko">Etsu-bo</persName>. I'm afraid you have lost your
+                        right to be called your father's 'brave son."'</q>
+                </p>
+                <p>I laughed, but my cheeks were hot.</p>
+                <p>As he helped me to the ground, <persName ref="#Brother"> Brother </persName>
+                    pomted toward a wide-spreading cloud of smoke floating lazily above a
+                    cone-shaped mountain.</p>
+                <p>
+                    <q>"That's the signpost for the Robber Station," he said. "Do you remember?"</q>
+                </p>
+                <p>Indeed I did. Many times I had heard Father tell the</p>
+
+                <pb/>
+                <p>story of the small hotel at the top of a mountain where the rates were so high
+                    that people called it the 'Robber Station.' I was a big girl before I learned
+                    that it was a very respectable stopping place and not a den of thieves where
+                    money was extorted from travellers as tribute.</p>
+                <p>We walked down the mountain, passing several cave shrines. In one I caught the
+                    twinkle of a burning lamp. lt reminded me of the hermit caves of <placeName
+                    ref="Echigo">Echigo</placeName>. This was rr.y first long trip from home, and it
+                    was full of strange new experiences. Yet there seemed to be familiar memories
+                    connected with everything. I wondered vaguely if I should find it so in
+                    America.</p>
+                <p>One day, after a shower, as the man stopped to lower the top of my
+                    jinrikisha<term xml:lang="jp" resp="#amj" ref="jinrikisha" target="#jinrikisha"
+                    />, a sudden burst of sunshine showed rre, high up on the mountain-side, pressed
+                    flat against the green, an immense white <term xml:id="dai" rend="sc"
+                    >dai</term>, <gloss target="#dai">the Japanese character meanirg
+                    "great.</gloss>" It looked as if it had been painted with a brush, but <persName
+                    ref="#Jiya">Jiya</persName>, who had once been there, had told me that it was
+                    made of strips of bamboo covered thickly with paper prayers tied on by pilgrim
+                    visitors to the temple en top of the mountain.</p>
+                <p>Near by was the rude little village where <persName ref="#Miyo"> Miyo </persName>
+                    lived. She was <persName ref="#Jiya">Jiya's</persName> sister, and we spent the
+                    night in her house. It was a queer place, a sort of cheap hotel for country
+                    people. <persName ref="Miyo">Miyo</persName>, with her son and his wife, met us
+                    at the door with deep bows and many a <emph rend="italics">"Maa ! Maa !"
+                    </emph>of surprise and pleasure. The wide entrance opened into a big room having
+                    a clay floor. Several casks bound with hoops of twisted bamboo were piled in one
+                    corner, and from the smoky ceiling hung a bulging bag of grain, bunches of mochi
+                    <emph rend="italics">mochi</emph> cakes and dried fish, and bamboo baskets
+                    containing provisions of various kinds. </p>
+                <p>We passed through a mob of chattering pilgrims who had just come down from the
+                    mountain, and, crossing the stones of a crude little garden, reached the
+                    rooms</p>
+                <pb/>
+
+                <p>where <persName ref="#Miyo"> Miyo </persName>lived. Everything was clean, but the
+                    paper doors were patched, the mats yellow with age, and the cloth bindings worn
+                    almost through. <persName ref="#Miyo"> Miyo </persName>character who, in·
+                    violation of all tradition, had cast off a worthless husband and brought up her
+                    four children herself. Of course it was very low class to do a thing like that,
+                    but she was as brave as a man, and, since her husband had no parents, she had
+                    been able legally to keep the children herself.</p>
+                <p><persName ref="#Miyo"> Miyo </persName>had been a servant in our house when
+                    <persName ref="#Brother"> Brother </persName> was a child, and her delight in
+                    seeing the "Young Master" was pathetic. Her bare feet went pattering over the
+                    mats, slipping quickly into her sandals each time she crossed the door-sill to
+                    the kitchen. She hurried here and there, bringing us the best she had and
+                    offering everything with bows and apologies. One thing troubled her very much.
+                    She had only wooden trays with no feet, and she had never known my <persName
+                    ref="#Brother"> Brother </persName> to eat off a low tray. In the days when she
+                    lived at our house, even an informal serving of cake was presented to him on a
+                    high lacquer stand, just as it was to Father. But she was ingenious, and
+                    presently she brought in a brassbound rice-bucket and with many bows and an
+                    anxious "Please grant your honourable pardon!" placed the tray on it before
+                    <persName ref="#Brother"> Brother </persName>.· He laughed heartily and said
+                    that even a shogun had never received a similar honour.</p>
+                <p>We sat up very late and had a most interesting time. <persName ref="#Brother">
+                    Brother </persName> talked of past days and of many things about our home, so
+                    little known to me that I felt as if I were reading some old, half-familiar
+                    book. I had never known him to be so free and merry as he was that evening. And
+                    <persName ref="#Miyo"> Miyo </persName>, half laughter and half tears, talked
+                    rapidly, asking many questions and interrupting herself continually. She was</p>
+
+                <pb/>
+                <p>reminding him of some incident of his childhood, when he abruptly asked: <q>"What
+                    became of your 'own-choice' husband, <persName ref="#Miyo"> Miyo
+                    </persName>?"</q></p>
+                <p>I thought that question was too cruel, but <persName ref="#Miyo"> Miyo
+                    </persName> calmly replied: <q>"Young Master, 'The rust of one's own sword can
+                    be brightened only by one's own effort.' I am still paying the penalty of my
+                    life mistake."</q></p>
+                <p>Very gravely she went across the room to a big chest and took out a small, flat
+                    package. It was a square of purple crepe bearing our crest. With a serious face
+                    she unfolded it, showing a brocade charm bag such as we children used to wear to
+                    hold the paper blessing of the priest. The gold threads were a little ravelled
+                    and the heavy scarlet cord mellowed with age.</p>
+                <p><persName ref="#Miyo"> Miyo </persName>lifted it reverently to her forehead.</p>
+                <p>
+                    <q>"The Honourable Mistress gave it to me," she said to <persName ref="#Brother"
+                        > Brother </persName>, "the night she let my lover and me through the water
+                        gate. It held square silver coins&#8211;all that I needed."</q>
+                </p>
+
+                <p> <q>"Ah!"</q> <persName ref="#Brother"> Brother </persName>exclaimed excitedly,
+                    <q>"I know! I was a little boy. It was dark and I saw her coming back alone,
+                    carrying a lantern. But I never understood what it meant."</q></p>
+                <p><persName ref="#Miyo"> Miyo </persName>hesitated a moment; then she told us.</p>
+                <p>When she was employed in our house, she was very young, and because she was the
+                    sister of Father's faithful <persName ref="#Jiya">Jiya</persName>, she was
+                    allowed much freedom. A youthful servant, also of our house, fell in love with
+                    her. For young people to become lovers without the sanction of proper
+                    formalities was a grave offence in any class, but in a samurai household it was
+                    a black disgrace to the house. The penalty was exile through the water
+                    gate&#8211;a gate of brush built over a stream and never used except by one of
+                    the <term xml:id="eta" rend="sc">eta</term>, <gloss target="#eta"> or
+                    outcast</gloss>,. The departure was public, and the culprits were</p>
+                <pb/>
+
+                <p>ever after shunned by everyone. The penalty was unspeakably cruel, but in the old
+                    days severe measures were used as a preventive of law-breaking.</p>
+                <p>Mother always rigidly obeyed every law of the house­ hold, but she saved
+                    <persName ref="#Miyo"> Miyo </persName> from public disgrace by taking the
+                    lovers quietly, at midnight, and herself opening the big swinging gate for them
+                    to pass. No one ever knew the truth.</p>
+                <p><q>"It is said," </q>concluded <persName ref="#Miyo"> Miyo </persName>sadly,
+                    <q>"that the hearts of those who pass the water gate are purified by the gods;
+                    but even so, the penalty of a law-breaker can never be evaded. In secret I have
+                    paid the penalty, and my children were saved from disgrace by the heavenly
+                    kindness of the Honourable Mistress of the Inagaki."</q></p>
+                <p>We all sat quiet for a moment. Then <persName ref="#Brother"> Brother
+                    </persName>said bitterly:</p>
+                <p>
+                    <q>"The Honourable Mistress of the Inagaki was many times more merciful to the
+                        servants of her household than to her one and only son."</q>
+                </p>
+                <p>Impatiently he pushed his cushion aside and abruptly said good-night.</p>
+                <p>The next morning our road wound along the side of a mountain stream awkwardly
+                    threading its way through a series of angular gullies, finally ending abruptly
+                    in a swift, sloping leap into a wide, shallow river, which we crossed on a boat
+                    poled by coolies. This river was the scene of one of <persName ref="#Jiya"
+                    >Jiya's</persName> most exciting stories. Father, on one of his hurried trips to
+                    Tokyo, had found it flooded and had ordered his coolies to place his palanquin
+                    on a platform and carry it on their heads through the whirling waves to the
+                    opposite shore. One man was drowned.</p>
+                <p>As our jinrikishas<term xml:lang="jp" resp="#amj" ref="jinrikisha"
+                    target="#jinrikisha"/> rolled along I thought of how often Father had gone over
+                    that road amidst the state and pomp of old Japan; and now his two dear
+                    ones&#8211;his eldest and his youngest&#8211;were following the same path in
+                    rented</p>
+                <pb/>
+                <p>jinrikishas<term xml:lang="jp" resp="#amj" ref="jinrikisha" target="#jinrikisha"
+                    />, simply garbed and with no attendants except a wheezy old coolie with a
+                    baggage horse. How strange it seemed.</p>
+                <p>At last we reached <placeName ref="#Takasaki">Takasaki </placeName>&#8211;the
+                    place from which the celebrated "land steamer" started on its puffing way to
+                    Tokyo. That was the first time that I ever saw a railway train. It looked to me
+                    like a long row of little rooms, each with a narrow door opening on to the
+                    platform.</p>
+                <p>It was late in the afternoon, and I was so weary that I have little recollection
+                    of anything except a scolding from <persName ref="#Brother"> Brother
+                    </persName>, because I, feeling that I was entering some kind of a house,
+                    stepped out of my wooden shoes, leaving them· on the platform. Just before the
+                    train started, they were handed in at the window by an official whose special
+                    duty it was to gather all the shoes from the platform before the starting of
+                    every train. I went to sleep at once, and the next thing I knew we were in
+                    Tokyo.</p>
+            </div>
+        </body>
+    </text>
+
+    <standOff>
+        <listPerson>
+            <person xml:id="Brother">
+                <persName> Brother</persName>
+                <occupation>Business man</occupation>
+                <note> Brother is a traditional Japanese boy and heads to the Army once he is old
+                    enough. He was then seeing the success of people in America and intrigued on how
+                    to get over there. Not too long later Brother was offered his first job of a
+                    partnership in America and took the job. He was the first one in his family to
+                    go to America inspriring the rest of his siblings to follow in his path. </note>
+            </person>
+            <person xml:id="Matsuo">
+                <persName> Matsuo</persName>
+                <occupation>Business man</occupation>
+                <note>Matsuo came into Brother's life after Brother got in a terrible accident and
+                    was sent to the hospital. Matsuo saw how bad he was doing and tried to help him
+                    becoming his caretaker which started their friendship. Matsuo then becomes more
+                    involved with the Etsu's family and they decide to set them up with a
+                    marriage. </note>
+            </person>
+            <person xml:id="HonourableGrandmother">
+                <persName> Honorouble Grandmother</persName>
+                <occupation>Caretaker</occupation>
+                <note>Grandmother often spent her days relaxing around the house and reading to
+                    Etsu when she was younger. Etsuko's grandmother has a big impact on her
+                    education and pushes for Etsu to get better eductaion than what is provided
+                    for girls at this time as she wants Etsuko to be a priestess. Grandmother alway
+                    pushed Etsu to be maiden-like in order to follow Japenese tradition. </note>
+            </person>
+            <person xml:id="Ishi">
+                <persName> Ishi</persName>
+                <occupation>Nurse</occupation>
+                <note> Ishi comes into Etsu's life as her nurse. She was often the one who took care
+                    of Etsu, Brother, and Sister in the early years. Ishi is motherlike figure in
+                    for Etsu as Ishi makes her clothes, food, and also dresses her everyday when
+                    she was younger. Ishi also teaches Etsuko important skills for a woman in
+                    japenesse culture such as sewing. </note>
+            </person>
+            <person xml:id="Miyo">
+                <persName> Miyo</persName>
+                <occupation>servant</occupation>
+                <note>Miyo is the sister of Jiya and was a previous servant when Brother was a
+                    child. She then left her role when she had children without being married. This
+                    was a disgrace to traditions in Japan as people could get exiled for this
+                    behavior. Miyo is used in the story to teach her children a lesson regarding
+                    Japanese traditions.</note>
+            </person>
+            <person xml:id="Jiya">
+                <persName> Jiya</persName>
+                <occupation>Head Servavent</occupation>
+                <note>Jiya is the head servant of Estu's father having command over the other
+                    servants. Jiya is an extremely strict leader but is often described as a very
+                    caring and loyal person in Etsu's eyes. He was typically always busy working but
+                    always made time to help or hangout with Etsuko. Jiya becomes more involved with
+                    the family as he begins to help out with the Father's business. Jiya begins to
+                    start taking over when Father is busy and even accompanies him on business
+                    trips.</note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="Nagaoka" type="city">
+                <placeName>Nagaoka</placeName>
+                <location>
+                    <country> Japan</country>
+                    <settlement>Niigata</settlement>
+                    <geo>37.4465, 138.8513</geo>
+                </location>
+                <desc>This city is where </desc>
+            </place>
+
+            <place xml:id="MyokoMountain" type="stratovolcano">
+                <placeName>Myoko Mounatin</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Honshu</settlement>
+                    <geo>36.8925, 138.1130</geo>
+                </location>
+
+            </place>
+            <place xml:id="Fujiyama" type="mountain">
+                <placeName>Fujiyama</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Honshu</settlement>
+                    <geo>35.3606, 138.7274</geo>
+                </location>
+            </place>
+            <place xml:id="Echigo" type="province">
+                <placeName>Echigo</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Honshu</settlement>
+                    <geo>37.8154, 138.9077</geo>
+                </location>
+            </place>
+            <place xml:id="IsleofSado" type="island">
+                <placeName>Isle of Sado</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Niigata</settlement>
+                    <geo>38.0411, 138.3387</geo>
+                </location>
+            </place>
+            <place xml:id="Nagano" type="city">
+                <placeName>Nagano</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Nagano Prefecture</settlement>
+                    <geo>36.6485, 138.1950</geo>
+                </location>
+            </place>
+            <place xml:id="Zenkoji" type="temple">
+                <placeName>Zenkoji</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Nagano</settlement>
+                    <geo>36.6617, 138.1877</geo>
+                </location>
+            </place>
+            <place xml:id="Shinano" type="Province">
+                <placeName>Shinano</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Honshu</settlement>
+                    <geo>36.8064, 138.2072</geo>
+                </location>
+            </place>
+            <place xml:id="Komoro" type="city">
+                <placeName>Komoro</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Nagano Prefecture</settlement>
+                    <geo>36.3271, 138.4258</geo>
+                </location>
+            </place>
+            <place xml:id="Takasaki" type="city">
+                <placeName>Takasaki</placeName>
+                <location>
+                    <country>Japan</country>
+                    <settlement>Gumna</settlement>
+                    <geo>36.3221, 139.0034</geo>
+                </location>
+            </place>
+        </listPlace>
+
+        <listAnnotation>
+<note><hi rend="bold">Foreign Words:</hi></note>
+            <annotation xml:id="dyke" motivation="describing" target="#dyke">
+                <note>Dyke: typically describes the flow of water that is stopped by a barrier to
+                    the water out of the sea. This can also be used to keep rivers from
+                    flooding.</note>
+            </annotation>
+            <annotation xml:id="jinrikisha" motivation="describing" target="#jinrikisha">
+                <note>Jinrikisha: a Japenese word describing a small cart used to carry passengers.
+                    The cart is then pulled by a one person and it used often for transportation in
+                    Japan.</note>
+            </annotation>
+            <annotation xml:id="kimono" motivation="describing" target="#kimono">
+                <note>Kimono: a Japenese word for "thing to wear" and is a traditional clothing item
+                    worn in Japan made out of a cloth known as a tanmono. It is a dress like outift
+                    that is then held together by a belt known as an obi. This is not typically worn
+                    everyday but specifically for special occassions and events. </note>
+            </annotation>
+            <annotation xml:id="shiro" motivation="describing" target="#shiro">
+                <note>Shiro: a Japenese word meaning white or castle. In this text this word is
+                    being used to describe Estsuko father's dog. </note>
+            </annotation>
+            <annotation xml:id="tokonoma" motivation="describing" target="#tokonoma">
+                <note>Tokonoma: a Japenese word describing a space in a room used to display
+                    artistic items.</note>
+            </annotation>
+        </listAnnotation>
+    </standOff>
+</TEI>
