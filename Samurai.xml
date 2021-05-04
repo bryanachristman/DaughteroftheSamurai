@@ -112,10 +112,10 @@
                 <p>The charm of delight that rare things give came to me during days and
                     weeks&#8212;even months and years&#8212;from those books. I can recite whole
                     pages of them now. There was a most interesting story of <persName
-                        ref="#Colombus">Christopher Columbus.</persName> It was not translated
+                        ref="#Columbus">Christopher Columbus.</persName> It was not translated
                     literally, but adapted so that the Japanese mind would readily grasp the thought
                     without being buried in a puzzling mass of strange customs. All facts of the
-                    wonderful discovery were stated truthfully, but <persName ref="#Colombus"
+                    wonderful discovery were stated truthfully, but <persName ref="#Columbus"
                         >Columbus</persName> was pictured as a fisher lad, and somewhere in the
                     story there figured a lacquer bowl and a pair of chopsticks.</p>
                 <p>These books had been my inspiration during all my years of childhood, and when,
@@ -554,8 +554,8 @@
                         be best for you to wait until vacation. Then we will talk of it.”</q></p>
                 <p>So I postponed being baptized, and when vacation came, I went to <placeName
                         ref="#Nagaoka">Nagaoka</placeName>. The people there knew little of
-                    Christianity.<ref target="#note3">*</ref> The only impression most of them had
-                    was that it was a curious belief lacking in ceremony, whose converts were
+                        Christianity.<ref target="#note3">*</ref> The only impression most of them
+                    had was that it was a curious belief lacking in ceremony, whose converts were
                     required to trample upon sacred things<ref target="#note4">*</ref> There
                     existed, especially among the old, a strong distaste against <term xml:lang="ja"
                         xml:id="Jakyo">Jakyo</term>, <gloss target="#Jakyo">the evil sect</gloss>,
@@ -659,52 +659,58 @@
                         Restoration</ref> and rebuilt afterwards.</note>
             </place>
         </listPlace>
-
         <listBibl>
             <bibl xml:id="DivineComedy">
                 <title>The Divine Comedy</title>
                 <author ref="#Dante">Dante Alighieri</author>
-                <date when="1472">1472</date>
-                <note/>
+                <date when="1321">1321</date>
+                <note> The Divine Comedy's depictions of Hell, Purgatory, and Heaven was extremely
+                    influential on Western art and literature, including poets <ref target="#Milton"
+                        >Milton</ref> and <ref target="#Tennyson">Tennyson</ref>.</note>
             </bibl>
             <bibl xml:id="WesternSeas">
                 <title>Tales of the Western Seas</title>
-                <author>N/A</author>
-                <date>N/A</date>
-                <note/>
+                <author>?</author>
+                <date>?</date>
+                <note> Contains passages from schoolbooks, literature, and poetry. </note>
             </bibl>
             <bibl xml:id="WorldHistory">
-                <title>Peter Parley's World History</title>
-                <author ref="#Parley">Peter Parley</author>
-                <date>N/A</date>
-                <note/>
+                <title cert="medium">Parley's Common School History of the World: A Pictorial
+                    History of the World, Ancient and Modern, for the Use of Schools</title>
+                <author ref="#Parley">Samuel G. Goodrich</author>
+                <date when="1859">1859</date>
+                <note>A schoolbook which provides an outline of world history.</note>
             </bibl>
             <bibl xml:id="NationalReader">
-                <title>The National Reader</title>
+                <title>The National Reader: A Selection of Exercises in Reading and Speaking,
+                    Designed to Fill the Same Place in the Schools of the United States, that is
+                    Held in those of Great Britain by the Compilations of Murray, Scott, Enfield,
+                    Mylius, Thompson, Ewing, and Others. </title>
                 <author ref="#Pierpont">John Pierpont</author>
-                <date>1827</date>
-                <note/>
+                <date when="1827">1827</date>
+                <note>A school reader popular in the United States, which consists of a series of
+                    passages takeen from various authors.</note>
             </bibl>
             <bibl xml:id="WilsonsReaders">
                 <title>Wilson's Readers</title>
-                <author>N/A</author>
-                <date>N/A</date>
-                <note/>
+                <author>?</author>
+                <date>?</date>
+                <note>A schoolbook.</note>
             </bibl>
             <bibl xml:id="OldTestament">
                 <title>The Old Testament</title>
-                <author>N/A</author>
-                <date>N/A</date>
-                <note/>
+                <author>Various</author>
+                <date>Between 8th and 1st Centuries BC</date>
+                <note>The first division of the Christian bible.</note>
             </bibl>
             <bibl xml:id="Dora">
                 <title>Dora</title>
                 <author ref="#Tennyson">Alfred Tennyson</author>
-                <date when="1886">1886</date>
+                <date when="1842">1842</date>
                 <note/>
             </bibl>
             <bibl xml:id="Tanima">
-                <title>Tanima no Himeyuri</title>
+                <title>Tanima no Himeyuri (Lilies of the Valley)</title>
                 <author ref="#Kencho">Suematso Kencho</author>
                 <date when="1888" notBefore="1888" notAfter="1890">1888-1890</date>
                 <note/>
@@ -716,7 +722,7 @@
                 <note/>
             </bibl>
             <bibl xml:id="Hakkenden">
-                <title>Nanso Satomi Hakkenden</title>
+                <title>Nanso Satomi Hakkenden (Tale of Eight Dogs)</title>
                 <author ref="#Bakin">Kyokutei Bakin</author>
                 <date when="1814" notBefore="1814" notAfter="1842">1814-1842</date>
                 <note/>
@@ -725,7 +731,7 @@
                 <title>Paradise Lost</title>
                 <author ref="#Milton">John Milton</author>
                 <date when="1667">1667</date>
-                <note/>
+                <note>An epic poem which recounts the biblical story of the Fall of Man from the Garden of Eden.</note>
             </bibl>
         </listBibl>
 
@@ -734,31 +740,37 @@
                 <persName>Etsu Inagaki Sugimoto</persName>
                 <birth>1874</birth>
                 <death>1950</death>
-                <note/> 
+                <note>The author of <hi rend="italics">A Daughter of the Samurai</hi>. Born to a
+                    high-ranking <ref target="#def3">samurai</ref> in <ref target="#Nagaoka"
+                        >Nagaoka</ref> shortly after the <ref target="#note1">Meiji
+                        Restoration</ref>, she eventually moved to the United States after entering
+                    into an arranged marriage with a Japanese merchant.</note>
             </person>
             <person xml:id="Parley">
                 <persName>Samuel Grisworld Goodrich (pseud. Peter Parley)</persName>
                 <birth when="1793">1793</birth>
                 <death when="1860">1860</death>
-                <note/>
+                <note>An American author who wrote a popular series of schoolbooks for young
+                    readers. </note>
             </person>
             <person xml:id="Pierpont">
                 <persName>John Pierpoint</persName>
                 <birth when="1785">1785</birth>
                 <death when="1866">1866</death>
-                <note/>
+                <note>An American poet who also published school readers popular in the United
+                    States.</note>
             </person>
             <person xml:id="Dante">
                 <persName>Dante Alighieri</persName>
                 <birth when="1265">1265</birth>
                 <death when="1321">1321</death>
-                <note/>
+                <note>An Italian Catholic medieval poet best known for his work <ref target="#DivineComedy">The Divine Comedy</ref>.</note>
             </person>
             <person xml:id="Tennyson">
                 <persName>Alfred Tennyson</persName>
                 <birth when="1809">1809</birth>
                 <death when="1892">1892</death>
-                <note/>
+                <note>A British Victorian-era poet best known for poems such as "In Memoriam" and "The Charge of the Light Brigade."</note>
             </person>
             <person xml:id="Kencho">
                 <persName>Suematsu Kencho</persName>
@@ -776,10 +788,10 @@
                 <persName>John Milton</persName>
                 <birth when="1608">1608</birth>
                 <death when="1674">1674</death>
-                <note/>
+                <note>An English poet best known for his work <ref target="#ParadiseLost">Paradise Lost.</ref></note>
             </person>
-            <person xml:id="Colombus">
-                <persName>Christopher Colombus</persName>
+            <person xml:id="Columbus">
+                <persName>Christopher Columbus</persName>
                 <birth when="1451">1451</birth>
                 <death when="1506">1506</death>
                 <note/>

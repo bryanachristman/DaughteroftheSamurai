@@ -11,12 +11,10 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="Samurai.css"/>
-
             </head>
             <body>
                 <h1>A DAUGHTER OF THE SAMURAI by Etsu Inagaki Sugimoto</h1>
-                <h4>Encoded by Bryan Christman</h4>
-                <p> Right click to download the source files: <a href="Samurai.xml">XML</a>, <a
+                <p>Right click to download the source files: <a href="Samurai.xml">XML</a>, <a
                         href="Samurai.xsl">XSLT</a>, and <a href="Samurai.css">CSS</a>.</p>
                 <xsl:apply-templates/>
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
@@ -43,6 +41,7 @@
     </xsl:template>
 
     <xsl:template match="tei:head">
+        <hr/>
         <h2>
             <xsl:apply-templates/>
         </h2>
@@ -120,8 +119,11 @@
         </xsl:element>
     </xsl:template>
 
+
     <xsl:template match="tei:standOff">
-        <h2>Notes</h2>
+        <hr/>
+        <h3>NOTES</h3>
+        <hr/>
         <xsl:for-each select="tei:listAnnotation">
             <xsl:for-each select="tei:note">
                 <xsl:element name="a">
@@ -136,7 +138,9 @@
         </xsl:for-each>
 
         <xsl:for-each select="tei:listPlace">
-            <h2>Places</h2>
+            <hr/>
+            <h3>PLACES</h3>
+            <hr/>
             <xsl:for-each select="tei:place">
                 <xsl:element name="a">
                     <xsl:attribute name="id">
@@ -155,7 +159,9 @@
         </xsl:for-each>
 
         <xsl:for-each select="tei:listBibl">
-            <h2>Books</h2>
+            <hr/>
+            <h3>LITERARY WORKS</h3>
+            <hr/>
             <xsl:for-each select="tei:bibl">
                 <xsl:element name="a">
                     <xsl:attribute name="id">
@@ -167,8 +173,8 @@
                         <xsl:apply-templates/>
                     </h4>
                 </xsl:for-each>
-                <p>Author: <xsl:apply-templates select="tei:author"/></p>
-                <p>Date: <xsl:apply-templates select="tei:date"/></p>
+                <p><b>Author</b>: <xsl:apply-templates select="tei:author"/></p>
+                <p><b>Date</b>: <xsl:apply-templates select="tei:date"/></p>
                 <xsl:for-each select="tei:note">
                     <p>
                         <xsl:apply-templates/>
@@ -179,7 +185,9 @@
 
 
         <xsl:for-each select="tei:listPerson">
-            <h2>People</h2>
+            <hr/>
+            <h3>PEOPLE</h3>
+            <hr/>
             <xsl:for-each select="tei:person">
                 <xsl:element name="a">
                     <xsl:attribute name="id">
@@ -197,6 +205,7 @@
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
+        <hr/>
     </xsl:template>
 
 
