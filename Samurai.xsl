@@ -10,7 +10,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="samurai.css"/>
+                <link rel="stylesheet" type="text/css" href="Samurai.css"/>
 
             </head>
             <body>
