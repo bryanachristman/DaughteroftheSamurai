@@ -664,7 +664,7 @@
                 <title>The Divine Comedy</title>
                 <author ref="#Dante">Dante Alighieri</author>
                 <date when="1321">1321</date>
-                <note> The Divine Comedy's depictions of Hell, Purgatory, and Heaven was extremely
+                <note> A three-part poem whose depictions of Hell, Purgatory, and Heaven were extremely
                     influential on Western art and literature, including poets <ref target="#Milton"
                         >Milton</ref> and <ref target="#Tennyson">Tennyson</ref>.</note>
             </bibl>
@@ -689,7 +689,7 @@
                 <author ref="#Pierpont">John Pierpont</author>
                 <date when="1827">1827</date>
                 <note>A school reader popular in the United States, which consists of a series of
-                    passages takeen from various authors.</note>
+                    passages taken from various authors.</note>
             </bibl>
             <bibl xml:id="WilsonsReaders">
                 <title>Wilson's Readers</title>
@@ -701,45 +701,63 @@
                 <title>The Old Testament</title>
                 <author>Various</author>
                 <date>Between 8th and 1st Centuries BC</date>
-                <note>The first division of the Christian bible.</note>
+                <note>The first division of the Christian Bible.</note>
             </bibl>
             <bibl xml:id="Dora">
                 <title>Dora</title>
                 <author ref="#Tennyson">Alfred Tennyson</author>
                 <date when="1842">1842</date>
-                <note/>
+                <note>A narrative poem which recounts the story of a farmer who attempts to marry
+                    his niece, Dora, to his son, William. Although Dora is in love with William,
+                    William refuses to marry her and is kicked out of his father's house. He marries
+                    another farmer's daughter and has a son with her before falling ill and dying.
+                    Dora eventually reconciles her uncle with William's wife and son. <ref target="#Etsu">Sugimoto</ref> says
+                    that this poem is the inspiration for <ref target="#Suematso">Suematso
+                        Kencho's</ref>
+                    <ref target="#Tanima"><hi rend="italics">Tanima no Himeyuri</hi></ref>; however, the connection is
+                    somewhat unclear. </note>
             </bibl>
             <bibl xml:id="Tanima">
                 <title>Tanima no Himeyuri (Lilies of the Valley)</title>
                 <author ref="#Kencho">Suematso Kencho</author>
                 <date when="1888" notBefore="1888" notAfter="1890">1888-1890</date>
-                <note/>
+                <note>Although <ref target="#Etsu">Sugimoto</ref> says that this book was based on <ref target="#Tennyson"
+                        >Tennyson's</ref>
+                    <ref target="#Dora">"Dora"</ref>, it seems to have instead been based on Charlotte
+                    Mary Brame's <hi rend="italics">Dora Thorne</hi>. The book was popular among upper-class readers in Japan,
+                    including the <ref target="#Shoken">Empress</ref> at the time.</note>
             </bibl>
             <bibl xml:id="EnochArden">
                 <title>Enoch Arden</title>
                 <author ref="#Tennyson">Alfred Tennyson</author>
                 <date when="1864">1864</date>
-                <note/>
+                <note>A narrative poem about a fisherman who leaves his wife and children to go to
+                    sea, becomes shipwrecked on a desert island, and returns after ten years to find
+                    that his wife, Annie, is married to his childhood friend, Philip. He decides
+                    not to reveal himself in order not to disturb their happiness, and dies of a
+                    broken heart. </note>
             </bibl>
             <bibl xml:id="Hakkenden">
                 <title>Nanso Satomi Hakkenden (Tale of Eight Dogs)</title>
                 <author ref="#Bakin">Kyokutei Bakin</author>
                 <date when="1814" notBefore="1814" notAfter="1842">1814-1842</date>
-                <note/>
+                <note>A popular historical fantasy novel about eight young samurai that took the author over 28 years to complete, becoming one of the
+                    longest novels in the world.</note>
             </bibl>
             <bibl xml:id="ParadiseLost">
                 <title>Paradise Lost</title>
                 <author ref="#Milton">John Milton</author>
                 <date when="1667">1667</date>
-                <note>An epic poem which recounts the biblical story of the Fall of Man from the Garden of Eden.</note>
+                <note>An epic poem which recounts the biblical story of the Fall of Man from the
+                    Garden of Eden.</note>
             </bibl>
         </listBibl>
 
         <listPerson>
             <person xml:id="Etsu">
                 <persName>Etsu Inagaki Sugimoto</persName>
-                <birth>1874</birth>
-                <death>1950</death>
+                <birth when="1874">1874</birth>
+                <death when="1974">1950</death>
                 <note>The author of <hi rend="italics">A Daughter of the Samurai</hi>. Born to a
                     high-ranking <ref target="#def3">samurai</ref> in <ref target="#Nagaoka"
                         >Nagaoka</ref> shortly after the <ref target="#note1">Meiji
@@ -764,61 +782,73 @@
                 <persName>Dante Alighieri</persName>
                 <birth when="1265">1265</birth>
                 <death when="1321">1321</death>
-                <note>An Italian Catholic medieval poet best known for his work <ref target="#DivineComedy">The Divine Comedy</ref>.</note>
+                <note>An Italian Catholic medieval poet best known for his work <ref
+                        target="#DivineComedy"><hi rend="italics">The Divine Comedy</hi></ref>.</note>
             </person>
             <person xml:id="Tennyson">
                 <persName>Alfred Tennyson</persName>
                 <birth when="1809">1809</birth>
                 <death when="1892">1892</death>
-                <note>A British Victorian-era poet best known for poems such as "In Memoriam" and "The Charge of the Light Brigade."</note>
+                <note>A British Victorian-era poet best known for poems such as "In Memoriam" and
+                    "The Charge of the Light Brigade."</note>
             </person>
             <person xml:id="Kencho">
                 <persName>Suematsu Kencho</persName>
                 <birth when="1855">1855</birth>
                 <death when="1920">1920</death>
-                <note/>
+                <note>A Japanese politician, intellectual, and author who wrote and translated
+                    several works in English.</note>
             </person>
             <person xml:id="Bakin">
-                <persName>Kyokutei Bakin</persName>
+                <persName>Takizawa Bakin (pseud. Kyokutei Bakin)</persName>
                 <birth when="1767">1767</birth>
                 <death when="1848">1848</death>
-                <note/>
+                <note>An Japanese author from the late Edo period known as a <hi rend="italics"
+                        >gesaku</hi>, a writer of popular, often humurous stories.</note>
             </person>
             <person xml:id="Milton">
                 <persName>John Milton</persName>
                 <birth when="1608">1608</birth>
                 <death when="1674">1674</death>
-                <note>An English poet best known for his work <ref target="#ParadiseLost">Paradise Lost.</ref></note>
+                <note>An English poet best known for his work <ref target="#ParadiseLost"><hi rend="italics">Paradise
+                        Lost</hi>.</ref></note>
             </person>
             <person xml:id="Columbus">
                 <persName>Christopher Columbus</persName>
                 <birth when="1451">1451</birth>
                 <death when="1506">1506</death>
-                <note/>
+                <note>An Italian explorer who made several voyages to the Americas around the turn
+                    of the 15th century, leading to European colonization.</note>
             </person>
             <person xml:id="Shoken">
                 <persName>Empress Shoken</persName>
-                <birth>1849</birth>
-                <death>1914</death>
-                <note/>
+                <birth when="1849">1849</birth>
+                <death when="1914">1914</death>
+                <note>The wife of Emperor Meiji who was Empress of Japan from 1869 through
+                    1912.</note>
             </person>
             <person xml:id="Cleopatra">
                 <persName>Cleopatra</persName>
                 <birth when="0069">69 BC</birth>
                 <death when="0030">30 BC</death>
-                <note/>
+                <note>The famous queen of the Ptolemaic Kingdom of Egypt involved with the
+                    historical events surrounding the fall of the Roman Republic. She was lovers
+                    with both Julius Caesar and Mark Antony and comitted suicide after her kingdom
+                    was conquered.</note>
             </person>
             <person xml:id="ChineseEmpress">
-                <persName>Empress of Emperor Genso of Great China</persName>
-                <birth/>
-                <death/>
-                <note/>
+                <persName cert="low">Empress of Emperor Genso of Great China</persName>
+                <birth>?</birth>
+                <death when="0724">724</death>
+                <note>Possibly Empress Wang, an Empress of the Tang Dynasty, who was forced to
+                    commit suicide after losing favor with her husband, Emperor Xuanzong. </note>
             </person>
             <person xml:id="Confucius">
                 <persName>Confucius</persName>
                 <birth when="0551">551 BC</birth>
                 <death when="0479">479 BC</death>
-                <note/>
+                <note>A Chinese philosopher whose teachings formed the basis of Confucianism, a way
+                    of life which emphasizes moral virtue and social harmony. </note>
             </person>
         </listPerson>
     </standOff>
